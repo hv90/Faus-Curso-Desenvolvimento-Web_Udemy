@@ -1,0 +1,13 @@
+
+id X class
+
+Situação: Ônibus com passageiros
+id = número do assento (identifica um elemento a partir da estrutura do veículo)
+class = sexo masculino (identifica elementos por uma característica ("classe") em comum)
+------------------------------------------------------------------------------------
+
+div X span
+
+ambas particionam elementos html e permitem mudanças a partir de classes e ids, porém div causa quebra de linha do elemento html em seu contexto. span não.
+
+------------------------------------------------------------------------------------
