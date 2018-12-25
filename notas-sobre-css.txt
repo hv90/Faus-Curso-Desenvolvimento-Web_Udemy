@@ -11,3 +11,16 @@ div X span
 ambas particionam elementos html e permitem mudanças a partir de classes e ids, porém div causa quebra de linha do elemento html em seu contexto. span não.
 
 ------------------------------------------------------------------------------------
+
+Fontes & cores - (Links úteis)
+Seção 4, aula 43
+Códigos de cores html Online:
+http://html-color-codes.info/Codigos-de-Cores-HTML/
+
+Tipos de fontes:
+http://www.w3schools.com/css/css_font.asp
+
+Fontes seguras para utilizar em seus projetos:
+http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+-----------------------------------------------------------------------------------
