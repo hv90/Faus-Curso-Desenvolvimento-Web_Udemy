@@ -1,0 +1,170 @@
+/*
+*
+*
+*@author: hv90
+*@version: 0.1
+*/
+
+/* ==================== layout ============================ */
+
+html, body, .capa{
+	height:100%;
+}
+
+body{
+	background: url('../imagens/capa.png'),
+				url('../imagens/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+}
+
+
+/* -- Barra de Navegação -- */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../imagens/spotify.svg') no-repeat;
+	border: 1px solid red;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transp{
+ 	padding: 15px 0px;
+ 	background: rgba(0,0,0,0.6);
+ 	border: none;
+ }
+
+ .navbar-brand{
+ 	padding: 5px 15px;
+ }
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a footer .nav a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #9bf0e1;
+	background: none;
+}
+
+/* -- Imagem de capa -- */
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+	background: #6207e3;
+
+}
+
+.btn-roxo:hover{
+	background: #7c25f8;
+	color: white;
+}
+
+.btn-branco{
+	border: 2px solid white;
+}
+
+.btn-branco:hover{
+	background: white;
+	color: black;
+}
+
+/* -- seção servico -- */
+#servico{
+	background: white;
+	padding: 20px 0px;
+}
+
+.albums{
+	padding: 10px 0px 10px 0px;
+}
+
+/* -- seção recurso -- */
+#recurso{
+	padding: 20px 0px;
+	color: white;
+}
+
+.rotacionar{	
+	-webkit-transform: rotate(30deg); /* chrome, safari, opera */
+	-ms-transform: rotate(30deg); /* IE9 */
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+/* ======================== Tipografia ==================== */
+
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#servico h2, #servico h3{
+	color: #7c25f8;
+}
+
+#recurso h3{
+	color: #9bf0e1;
+}
+
+#footerID h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+Teste o suporte das novas Tags do HTML5
+Seção 6, aula 70
+Nas próximas aulas, você irá aprender muito sobre o html5, mas algumas das tags novas, ainda não tem muito suporte em diversos navegadores. Por isso é importante que antes de utilizá-las em projetos, testar o suporte nos navegadores que o seu site pretende atingir, um site muito interessante para testar compatibilidade é:
+
+https://caniuse.com/
+
+Nesse site é possível escrever uma tag e testar o suporte dela em diversos navegadores.
+
+---------------------------------------------------------------------------
+
+Compatibilidade com HTML5 - (Links utilizados)
+Seção 6, aula 75
+Código para utilização do html5shim **Os links mudaram, utilize o link abaixo:
+https://github.com/aFarkas/html5shiv
+https://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.min.js
+
+Script para anexar ao html
+
+<!--[if IE]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+Mais elementos HTML 5
